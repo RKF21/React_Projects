@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: rgb(235, 234, 234);
+  width: 20vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 2vw;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img{
+  width: 3.5vw;
+  height: 7vh;
+  border: 0.5px solid rgb(175, 174, 174);
+  border-radius: 50%;
+}
+
+.top button{
+  background-color: rgb(232, 226, 226);
+  border: 1px solid rgb(138, 136, 136);
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.center{
+  margin-bottom:30px
+}
+
+.center h3{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.center h2{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.center h3 span{
+  font-size: 12px;
+  color: rgb(108, 107, 107);
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info span{
+  font-size: 15px;
+  font-weight: 550;
+  border: 1px solid rgb(138, 136, 136);
+  background-color: rgb(232, 226, 226);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(138, 136, 136);
+  padding-top: 10px;
+}
+
+.bottom-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom p{
+  font-size: 14px;
+}
+
+.bottom button{
+  border: 1px solid rgb(2, 2, 2);
+  background-color: rgb(7, 6, 6);
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 550;
+}
